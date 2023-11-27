@@ -15,7 +15,7 @@ UCI-VIRT-FSF-PT-06-2023-U-LOLC</a>.
       Challenge
     </a>
     <span> | </span>
-    <a href="#">
+    <a href="https://booksearch-tan.vercel.app/">
       Demo
     </a>
   </h3>
@@ -85,14 +85,15 @@ After installing npm packages, the application will be invoked by using the foll
 npm run develop
 ```
 
-#### Heroku Deployment
+#### Vercel Deployment
 
-[Click me to see app!](https://)
+[Click me to see app!](https://booksearch-tan.vercel.app/)
 
-- Create heroku app
+- Create Vercel deployment 
 
   ```
-  heroku create
+  configurate "create react app" into vercel after connect you github repo
+  configurate your MONGO_URI  on environemnt variables
   ```
 
 - Create database on MongoDB Atlas:
@@ -101,21 +102,14 @@ npm run develop
   Cluster ➡️ Collections ➡️ Create Database
   ```
 
-- Change Heroku setting
-
-  ```
-  Config Vars ➡️ KEY: MONGODB_URI ➡️ VALUE: (from Cluster connect, change password and database name)
-  ```
-
 - Git push
   ```
-  git push heroku main
-  heroku open
+  git push 
   ```
 
 #### App Screenshot
 
-![Screenshot](./client/public/GBS.png)
+![Screenshot](./client/public/booksearch.jpeg)
 
 ## License
 
